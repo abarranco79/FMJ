@@ -4,3 +4,64 @@
     box-sizing: border-box;
     font-family: 'Forum', cursive;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/header_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+}
+
+.logo{
+    width: 400px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: #0000b8;
+}
+
+section{
+    padding: 30px;
+}
+
+.introduccion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    background: #656565b8;
+    border-radius: 10px;
+}
+
+.introduccion p{
+    margin: 20px;
+}
